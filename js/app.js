@@ -1,8 +1,7 @@
-// Parallax Scrolling
+const openNav = () => {
+  document.getElementById("mySidenav").style.width = "300px";
+};
 
-const parallax = document.getElementById("parallax");
-
-window.addEventListener("scroll", function () {
-  let offset = window.pageYOffset;
-  parallax.style.backgroundPositionY = offset * 0.7 + "px";
-});
+const closeNav = () => {
+  document.getElementById("mySidenav").style.width = "0";
+};
