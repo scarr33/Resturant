@@ -21,10 +21,30 @@
   .menu-items {
     padding: 3rem 1rem;
   }
+  .food-box {
+    padding: 30rem 0rem;
+    width: clamp(500px, 80%, 550px);
+  }
+  .hist,
+  .community,
+  .philosophy {
+    padding: 7rem 1rem;
+    height: 30rem;
+  }
 }
 
 @media (max-width: 480px) {
   .dessert-menu {
     position: relative;
+  }
+  .food-box {
+    padding: 20rem 0rem;
+    width: clamp(300px, 80%, 750px);
+  }
+  .hist,
+  .community,
+  .philosophy {
+    padding: 7rem 1rem;
+    height: 30rem;
   }
 }
