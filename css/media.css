@@ -31,6 +31,13 @@
     padding: 7rem 1rem;
     height: 30rem;
   }
+  .health-info {
+    width: clamp(100px, 100%, 700px);
+  }
+  .health-img,
+  .bakery-img {
+    width: clamp(300px, 100%, 600px);
+  }
 }
 
 @media (max-width: 480px) {
@@ -45,6 +52,6 @@
   .community,
   .philosophy {
     padding: 7rem 1rem;
-    height: 30rem;
+    height: 35rem;
   }
 }

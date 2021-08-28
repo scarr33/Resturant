@@ -20,6 +20,7 @@ body {
 :root {
   --white: #fff;
   --black: #000;
+  --grey: #f2f2f2;
 }
 
 h2 {
@@ -260,4 +261,71 @@ a {
   background: url("../images/pexels-photo-949069.jpeg");
   background-position: center;
   background-size: cover;
+}
+
+/*----------------Testimonial------------*/
+.testimonial {
+  position: relative;
+  min-height: 200vh;
+  padding: 5rem 0;
+  background-color: var(--grey);
+}
+
+.testimonial .container {
+  flex-direction: column;
+}
+
+.health,
+.review {
+  padding: 5rem;
+  flex-wrap: wrap;
+}
+
+.review {
+  flex-direction: row-reverse;
+}
+
+.health-info,
+.bakery-info {
+  padding: 0 3rem 5rem 3rem;
+  width: clamp(100px, 50%, 700px);
+}
+
+.health-info h2,
+.bakery-info h2 {
+  text-align: left;
+}
+
+.bakery-info h2 {
+  margin-top: 2rem;
+}
+
+.bakery-info p::before {
+  display: block;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  content: " ";
+  background: url("../images/quote.png");
+  background-repeat: no-repeat;
+}
+
+.bakery-info h6 {
+  margin-top: 5rem;
+}
+
+.health-img,
+.bakery-img {
+  height: clamp(20rem, 70vw, 75rem);
+  width: clamp(300px, 50%, 600px);
+  background: url("../images/pexels-photo-5591663.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bakery-img {
+  background: url("../images/pexels-photo-5591712.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
