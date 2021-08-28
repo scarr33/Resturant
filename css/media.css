@@ -31,7 +31,8 @@
     padding: 7rem 1rem;
     height: 30rem;
   }
-  .health-info {
+  .health-info,
+  .bakery-info {
     width: clamp(100px, 100%, 700px);
   }
   .health-img,
